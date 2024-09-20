@@ -25,7 +25,7 @@ if (st.session_state.text == None):
         """)
 
 with st.sidebar:
-    st.write("깃허브 레포지토리 링크: https://github.com/ghostclog")
+    st.write("깃허브 레포지토리 링크: https://github.com/ghostclog/GPT-side")
     api_key = st.text_input("사용하실 open api 키를 입력해주세요.")
     if api_key:
         llm = llmAndAgent.LLM(api_key)
